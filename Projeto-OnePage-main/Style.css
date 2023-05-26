@@ -54,6 +54,8 @@ html {
 }
 .titulo {
     font: 700 33px 'Mont', Sans-Serif;
+    margin-left: 60px;
+    margin-bottom: 20px;
     color: #47564c;
 }
 
