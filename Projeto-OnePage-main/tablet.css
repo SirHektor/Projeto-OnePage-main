@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+    
+@font-face {
+    font-family: Mont;
+    src: url(Assets/Montserrat-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        display: block;
+    }
+    .nossaComida, .panelas{
+        width: 90vw;
+        height: auto;
+}
+.imagem {
+    text-align: center;
+}
+
+.titulo {
+    font: 400 25px 'Mont', sans-serif;
+    margin-bottom: 10px;
+}
+.texto {
+    font: 300 13px 'Mont', sans-serif;
+}
+.item {
+    font: 400 15px 'Mont', sans-serif;
+    padding: 0 3px;
+    margin-left: 16px
+}
+
+.item:hover {
+    font: 400 20px 'Mont', sans-serif;
+} 
+.panelas, .img {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.cardapio, .titulo {
+    font: 400 20px 'Mont', sans-serif;
+    text-align: center;
+
+
+
+}
+.texto {
+    font: 400 15px 'Mont', sans-serif;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+}
